@@ -41,25 +41,25 @@ const BannerHome = () => {
             </div>
           </div>
         </div>{" "}
-        <div
-          className="overflow-hidden border-t border-white/10 "
-          aria-label="Client companies"
-        >
-          <div className="company-logo-track flex w-max">
-            <img
-              className="company-logo-strip"
-              src={slider}
-              alt="Shopier, Spotify, Zoom, Slack, Amazon, and Adobe"
-            />
-            <img
-              className="company-logo-strip"
-              src={slider}
-              alt=""
-              aria-hidden="true"
-            />
-          </div>
-        </div>
       </Container>
+      <div
+        className="overflow-hidden border-t border-white/10 "
+        aria-label="Client companies"
+      >
+        <div className="company-logo-track flex w-max">
+          <img
+            className="company-logo-strip"
+            src={slider}
+            alt="Shopier, Spotify, Zoom, Slack, Amazon, and Adobe"
+          />
+          <img
+            className="company-logo-strip"
+            src={slider}
+            alt=""
+            aria-hidden="true"
+          />
+        </div>
+      </div>
     </div>
   );
 };
