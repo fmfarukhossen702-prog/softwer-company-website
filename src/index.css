@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm: 570px;
+  --breakpoint-md: 740px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1260px;
+  --color-primary: #0a84ff;
+  --color-blackPrimary: #030303;
+}
+
+@utility container {
+  @apply mx-auto w-full;
+}
+
+@keyframes company-logo-scroll {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.company-logo-track {
+  animation: company-logo-scroll 28s linear infinite;
+}
+
+.company-logo-strip {
+  flex: 0 0 auto;
+  width: max(720px, min(1440px, 100vw));
+  max-width: none;
+  height: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .company-logo-track {
+    animation: none;
+  }
+}
