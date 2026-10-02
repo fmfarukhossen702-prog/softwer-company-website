@@ -1,9 +1,8 @@
-import React from 'react'
-import Container from '../common/Container'
-import CardHome from './CardHome';
-import img1 from "../../assets/serHome.png"
-import img2 from "../../assets/serHome2.png"
-import img3 from "../../assets/serHome3.png"
+import Container from "../common/Container";
+import CardHome from "./CardHome";
+import img1 from "../../assets/serHome.png";
+import img2 from "../../assets/serHome2.png";
+import img3 from "../../assets/serHome3.png";
 
 const ServideHome = () => {
   return (
@@ -33,6 +32,6 @@ const ServideHome = () => {
       </Container>
     </div>
   );
-}
+};
 
-export default ServideHome
+export default ServideHome;

@@ -1,5 +1,3 @@
-import React from 'react'
-
 const CardHome = ({ image, heading, title }) => {
   return (
     <div>
@@ -9,15 +7,11 @@ const CardHome = ({ image, heading, title }) => {
             <img src={image} />
           </div>
         </div>
-        <h3 className=" text-2xl font-semibold text-center py-5 ">
-         {heading}
-        </h3>
-        <p className = "text-center">
-          {title}
-        </p>
+        <h3 className=" text-2xl font-semibold text-center py-5 ">{heading}</h3>
+        <p className="text-center">{title}</p>
       </div>
     </div>
   );
-}
+};
 
-export default CardHome
+export default CardHome;

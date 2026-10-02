@@ -1,4 +1,3 @@
-import React from "react";
 import Container from "../common/Container";
 import img1 from "../../assets/quality-icon1.png";
 import CardChoose from "./CardChoose";

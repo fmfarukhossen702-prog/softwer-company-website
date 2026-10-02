@@ -1,11 +1,9 @@
-import React from 'react'
-
 const Btn = ({ children }) => {
   return (
     <button className=" px-9 py-3.5 rounded-[10px] bg-primary ">
-        {children}
+      {children}
     </button>
   );
-}
+};
 
-export default Btn
+export default Btn;

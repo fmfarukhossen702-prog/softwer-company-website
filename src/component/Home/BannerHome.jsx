@@ -1,4 +1,3 @@
-import React from "react";
 import Container from "../common/Container";
 import bg from "../../assets/BannerBgg.png";
 import robot from "../../assets/robotArea.png";
@@ -35,14 +34,13 @@ const BannerHome = () => {
               </div>
             </div>
 
-            <div className="w-[40%] flex juestify-center items-center ">
+            <div className="w-[40%] flex justify-center items-center ">
               <div>
                 <img src={robot} alt="Robot" />
               </div>
             </div>
           </div>
         </div>{" "}
-
         <div
           className="overflow-hidden border-t border-white/10 "
           aria-label="Client companies"
