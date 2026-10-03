@@ -4,6 +4,6 @@ const Btn = ({ children }) => {
       {children}
     </button>
   );
-};
+}; 
 
 export default Btn;
