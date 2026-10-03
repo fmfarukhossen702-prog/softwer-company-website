@@ -42,7 +42,7 @@ const FAQ = () => {
   console.log(data);
 
   return (
-    <div className="py-20">
+    <div className="pt-20 pb-50 border-b border-b-[#ffffff69]  ">
       <Container>
         <h3 className=" text-center text-4xl font-bold mb-18 ">
           Frequently Asked Questions

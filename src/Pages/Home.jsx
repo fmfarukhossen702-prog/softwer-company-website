@@ -4,6 +4,7 @@ import ChooseHome from "../component/Home/ChooseHome";
 import StartHome from "../component/Home/StartHome";
 import FAQ from "../component/Home/FAQ";
 
+
 const Home = () => {
   return (
     <div className="bg-blackPrimary text-white">
@@ -12,6 +13,7 @@ const Home = () => {
       <ChooseHome />
       <StartHome/>
       <FAQ/>
+
     </div>
   );
 };
